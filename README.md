@@ -1,10 +1,10 @@
-# KantaSyncPlugin
+# KantaSync Plugin
 
-This plugin allows easily synchronizing translations from your dev/staging environment, directly into the production.
+This plugin for [Kanta](https://github.com/curiosum-dev/kanta) allows easily synchronizing translations from your dev/staging environment, directly into the production.
 
 ## Installation
 
-Add KantaSync to your deps list:
+Add KantaSync plugin to your deps list:
 ```elixir
 def deps do
   [
@@ -29,7 +29,7 @@ defmodule KantaTest.Repo.Migrations.AddKantaSyncTables do
 end
 ```
 
-KantaSync creates table `kanta_sync_information` where information about the last fetch from the production is stored, to send only necessary changes instead of a full translations list when synchronizing. 
+KantaSync plugin creates table `kanta_sync_information` where information about the last fetch from the production is stored, to send only necessary changes instead of a full translations list when synchronizing. 
 
 Make sure that you have the Kanta API endpoint configured:
 

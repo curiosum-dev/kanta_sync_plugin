@@ -28,7 +28,7 @@ defmodule Kanta.Sync.Plugin.MixProject do
       {:tesla, "~> 1.4"},
       {:jason, "~> 1.4"},
       {:phoenix_live_view, "~> 0.18"},
-      {:kanta, path: "../kanta"},
+      {:kanta, ">= 0.3.1"},
       {:credo, "~> 1.7", only: [:dev, :test], runtime: false},
       {:dialyxir, "~> 1.3", only: :dev, runtime: false}
     ]
