@@ -1,6 +1,6 @@
 defmodule Kanta.Sync.Translations.SingularTranslations.Finders.ListUpdatedSingularTranslations do
   @moduledoc """
-  Query module aka Finder responsible for listing locales
+  Query module aka Finder responsible for listing singular translations 
   """
 
   use Kanta.Query,

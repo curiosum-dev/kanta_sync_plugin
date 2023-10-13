@@ -1,6 +1,6 @@
 defmodule Kanta.Sync.Information do
   @moduledoc """
-  Gettext Context DB model
+  Schema containing private Kanta Sync information, including last fetch timestamp.
   """
 
   use Ecto.Schema

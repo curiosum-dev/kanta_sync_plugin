@@ -1,6 +1,6 @@
 defmodule Kanta.Sync.Translations.Domains.Finders.ListUpdatedDomains do
   @moduledoc """
-  Query module aka Finder responsible for listing locales
+  Query module aka Finder responsible for listing domains 
   """
 
   use Kanta.Query,

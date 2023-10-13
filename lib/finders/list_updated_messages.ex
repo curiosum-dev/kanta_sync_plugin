@@ -1,6 +1,6 @@
 defmodule Kanta.Sync.Translations.Messages.Finders.ListUpdatedMessages do
   @moduledoc """
-  Query module aka Finder responsible for listing locales
+  Query module aka Finder responsible for listing messages
   """
 
   use Kanta.Query,
