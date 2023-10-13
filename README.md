@@ -46,5 +46,5 @@ end
   Example: `KANTA_API_ENDPOINT=https://kanta.curiosum.com/kanta-api`
 - `KANTA_SECRET_TOKEN`
   Secret token allowing communication between production and staging/dev environments. Should be generated with `mix phx.gen.secret 256`.
-  **Both environments must have the same `KANTA_SECRET_TOKEN` environment variables.**
+  Both environments must have the same `KANTA_SECRET_TOKEN` environment variables. You can also disable default authorization mechanism and use your own, by passing `disable_api_authorization: true` option into Kanta's config.
 
